@@ -1,0 +1,123 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: url("media/wall.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    color: white;
+}
+img{
+    width:50px;
+    height:50px;
+}
+
+.maincont{
+    width:500px;
+    height:600px;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+.heads{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.headingss{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.hh{
+    font-size: 32px;
+    font-style: italic;
+    animation: startpoint 2s;
+}
+.searches{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:300px;
+}
+.structure{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:500px;
+}
+.skeleton{
+    display: flex;
+    flex-direction: row;
+    width:400px;
+    height:80px;
+}
+.myspace1,.myspace2,.myspace3,.myspace4,.myspace5{
+    flex:1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.holders1,.holders2,.holders3,.holders4,.holders5{
+    display: flex;
+    flex-direction: row;
+    width:120px;
+    justify-content: space-around;
+    align-items: center;
+    flex:0.4;
+}
+input{
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    
+    border-radius: 10%;
+}
+input:focus{
+    border:none;
+    background: none;
+    border-bottom: 2px solid white;
+    color:white;
+}
+.un{
+    color:white;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+}
+.un:hover{
+    transition-duration: 2s;
+    opacity: 0;
+}
+.fade{
+    display: none;
+}
+@keyframes startpoint{
+    0%{
+        transform: translateX(0px);
+    }
+    33%{
+        transform: translateX(-100px);
+    }
+    66%{
+        transform: translateX(80px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
