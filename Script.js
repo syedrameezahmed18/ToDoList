@@ -213,6 +213,12 @@ txt.addEventListener("keypress",function(event)   //when enter is pressed
             elem1.innerHTML="";
             placeholder[0]="f";
          })
+         e1.addEventListener("click",function(){
+            placeholder[0]="f";
+            let newdec=prompt();
+            elem1.innerHTML=newdec;
+            placeholder[0]="t";
+         })
          }
         else if(placeholder[0]==="t" && placeholder[1]==="f")
         {
@@ -230,6 +236,13 @@ txt.addEventListener("keypress",function(event)   //when enter is pressed
             rootsbuttons2.classList.add("fade");
             elem2.innerHTML="";
             placeholder[1]="f";
+         })
+         e2.addEventListener("click",function()
+         {
+            placeholder[1]="f";
+            let newdec=prompt();
+            elem2.innerHTML=newdec;
+            placeholder[1]="t";
          })
          }
         else if(placeholder[0]==="t" && placeholder[1]==="t" && placeholder[2]==="f")
@@ -250,6 +263,13 @@ txt.addEventListener("keypress",function(event)   //when enter is pressed
             elem3.innerHTML="";
             placeholder[2]="f";
          })
+         e3.addEventListener("click",function()
+         {
+            placeholder[2]="f";
+            let newdec=prompt();
+            elem3.innerHTML=newdec;
+            placeholder[2]="t";
+         })
          }
         else if(placeholder[0]==="t" && placeholder[1]==="t" && placeholder[2]==="t"&& placeholder[3]==="f")
         {
@@ -269,6 +289,13 @@ txt.addEventListener("keypress",function(event)   //when enter is pressed
             elem4.innerHTML="";
             placeholder[3]="f";
          })
+         e4.addEventListener("click",function()
+         {
+            placeholder[3]="f";
+            let newdec=prompt();
+            elem4.innerHTML=newdec;
+            placeholder[3]="t";
+         })
          }
         else if(placeholder[0]==="t" && placeholder[1]==="t" && placeholder[2]==="t"&& placeholder[3]==="t" && placeholder[4]==="f")
         {
@@ -287,6 +314,13 @@ txt.addEventListener("keypress",function(event)   //when enter is pressed
             rootsbuttons5.classList.add("fade");
             elem5.innerHTML="";
             placeholder[4]="f";
+         })
+         e5.addEventListener("click",function()
+         {
+            placeholder[4]="f";
+            let newdec=prompt();
+            elem5.innerHTML=newdec;
+            placeholder[4]="t";
          })
          }
         else if (placeholder[0]==="t" && placeholder[1]==="t" && placeholder[2]==="t"&& placeholder[3]==="t" && placeholder[4]==="t"){
